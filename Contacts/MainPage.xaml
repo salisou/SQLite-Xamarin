@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contacts.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout Margin="20,20, 20, 0">
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Progetto G4" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Entry x:Name="nameEnty"
+                   Placeholder=" Nome"/>
+            <Entry x:Name="lastnameEnty"
+                   Placeholder=" Cognome"/>
+            <Entry x:Name="emailEnty"
+                   Placeholder=" Email"/>
+            <Entry x:Name="addresEnty"
+                   Placeholder=" Indirizzo"/>
+            <Entry x:Name="contactEnty"
+                   Placeholder=" Contact"/>
+
+            <Button Text="Save"
+                x:Name="Savebutton"
+                Clicked="SaveButton_Clicked"/>
+            
+            
+            
+            <!--Entry Placeholder="Nome"/>
+            <Entry Placeholder="Cognome"/>
+            <Entry Placeholder="Email"/>
+            <Entry Placeholder="Contatto"/>
+            <Entry Placeholder="Indirizzo"/-->
+
+
+            <!--Button Text="Nuovo"
+                x:Name="Savebutton"
+                Clicked="SaveButton_Clicked"/>
+
+            <Button Text="Salva"
+                x:Name="Savebutton1"
+                Clicked="SaveButton_Clicked1"/>
+
+            <Button Text="Verifica"
+                x:Name="Savebutton2"
+                Clicked="SaveButton_Clicked2"/>
+
+            <Button Text="Modifica"
+                x:Name="Savebutton3"
+                Clicked="SaveButton_Clicked3"/-->
+
+        </StackLayout>
+    </ContentPage.Content>
+
+
+
+    <!--Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label-->
+</ContentPage>
